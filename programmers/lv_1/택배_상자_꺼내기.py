@@ -1,3 +1,6 @@
+import sys
+import os
+
 def solution(n: int, w:int, num: int) -> int:
     answer = 0
     
@@ -18,3 +21,15 @@ def solution(n: int, w:int, num: int) -> int:
                 if (r % 2 == 0 and col < last_cnt) or (r % 2 == 1 and col >= w - last_cnt):
                     answer += 1
     return answer + 1
+
+
+"""
+inputs:
+    n = 22, w = 6, num = 8
+    
+outputs:
+    results = 3
+"""
+if __name__ == "__main__":
+    n, w, num = map(int, input().split())
+    print(solution(n, w, num))

@@ -15,13 +15,14 @@ def main() -> None:
     B = list(map(int, input().split()))
     
     cnt = 0
-    for _ in range(n):
+    for _ in range(N):
         A = list(map(int, input().split()))
         score = sum(a * b for a, b in zip(A, B))
         if score > 0:
             cnt += 1
             
-    print(cnt)
+    # print(cnt)
+    sys.stdout.write("\n".join(cnt))
     
 if __name__ == "__main__":
     main()

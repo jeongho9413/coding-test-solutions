@@ -7,13 +7,13 @@ algorithms:
 """
 import sys
 
-def solution(n: int) -> None:
-    for x in range(1, 50000):
-        if (x * 108) // 100 == n:
-            print(x)
-            break
-        else:
-            print(":(")
-            
-n = int(sys.stdin.readline())
-solution(n)
+N = int(sys.stdin.readline())
+# N = int(input())
+
+for x in range(1, 50000):
+    if (x * 108) // 100 == N:
+        print(x)
+        break
+
+else:
+    print(":(")

@@ -1,6 +1,7 @@
 """
 개발자 창고 | 코딩테스트 알고리즘 - 5. 투포인터
 https://www.youtube.com/watch?v=U0TXIFiCIu0
+https://www.acmicpc.net/problem/2559
 
 개념:
     각 원소마다 모든 값을 순회해야할 때 O(N^2)

@@ -1,3 +1,3 @@
 # Two Pointer
 
-## Sliding Window \in Two Pointer
+Sliding Window $\subset$ Two Pointer

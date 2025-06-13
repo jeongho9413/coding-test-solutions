@@ -1,3 +1,3 @@
-# Coding Test Practices
+# Coding Test Soluitons
 
-* This repository is for coding-test practice.
+* This repository contains my solutions to coding-test problems from **LeetCode** (US), **AtCoder** (JP), and **Programmers** (KR).

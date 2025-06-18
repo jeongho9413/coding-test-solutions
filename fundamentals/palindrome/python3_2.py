@@ -1,3 +1,7 @@
+"""
+this way uses a stack data structure.
+"""
+
 import sys
 
 def is_palindrome(s: str) -> bool:

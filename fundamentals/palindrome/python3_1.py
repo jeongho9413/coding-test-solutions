@@ -1,3 +1,6 @@
+"""
+inspired by Flying Pan :)
+"""
 import sys
 
 def is_palindrome(s: str) -> bool:

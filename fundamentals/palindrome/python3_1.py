@@ -1,6 +1,6 @@
 """
 inspired by Flying Pan :)
-this is the easiest way to solve it
+this is the easiest way to solve it.
 """
 import sys
 

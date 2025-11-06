@@ -1,2 +1,0 @@
-result = r'!@#$%^&*(\'"<>?:;'
-print(result)

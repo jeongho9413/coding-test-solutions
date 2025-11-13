@@ -1,3 +1,9 @@
+"""
+leetcode - 6. zigzag conversion
+approach: using a simulation
+time: O(n)
+space: O(n)
+"""
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
 

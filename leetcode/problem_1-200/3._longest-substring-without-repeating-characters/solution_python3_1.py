@@ -1,3 +1,9 @@
+"""
+leetcode - 3. longest substring without repeating characters
+approach: using a hashset with a sliding window
+time: O(n)
+space: O(n)
+"""
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
 

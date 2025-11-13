@@ -1,3 +1,9 @@
+"""
+leetcode - 9. palindrome number
+approach: using math (remainder)
+time: O(n)
+space: O(1)
+"""
 class Solution:
     def isPalindrome(self, x: int) -> bool:
 

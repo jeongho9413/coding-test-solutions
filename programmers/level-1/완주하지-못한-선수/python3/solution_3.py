@@ -1,4 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42576
+# strategy: sorting
+# time: O(N log N)
+# space: O(N)
 def solution(participant, completion):
     
     participant.sort()
@@ -9,5 +12,3 @@ def solution(participant, completion):
             return p
         
     return participant[-1]
-    # answer = ''
-    # return answer

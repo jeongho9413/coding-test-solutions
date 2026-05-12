@@ -1,5 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/43164
-# strategy: DFS with eulerian path
+# strategy: DFS with Eulerian path
 # time: O(N log N)
 # space: O(N)
 from collections import defaultdict

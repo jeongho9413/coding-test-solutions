@@ -1,7 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/87694
 # strategy: BFS with visited matrix
-# time: 
-# space: 
+# time: O(100 \times 100)
+# space: O(100 \times 100)
 from collections import deque
 
 def solution(rectangle, characterX, characterY, itemX, itemY):

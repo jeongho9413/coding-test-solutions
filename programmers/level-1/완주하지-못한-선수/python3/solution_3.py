@@ -1,7 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42576
-# strategy: sorting
-# time: O(N log N)
-# space: O(N)
+# Strategy: sorting
+# Time: O(n log n)
+# Space: O(n)
 def solution(participant, completion):
     
     participant.sort()

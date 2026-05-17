@@ -1,7 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/12906
 # Strategy: Iteration
-# Time complexity: O(N)
-# Space complexity: O(N)
+# Time complexity: O(n)
+# Space complexity: O(n)
 def solution(arr):
     res = list()
     

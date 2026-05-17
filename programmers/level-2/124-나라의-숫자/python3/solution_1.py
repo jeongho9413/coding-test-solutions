@@ -3,7 +3,6 @@
 # Time: O(log_3 n)
 # Space: O(log_3 n)
 def solution(n):
-    
     digits = ['4', '1', '2']
     res = ''
     

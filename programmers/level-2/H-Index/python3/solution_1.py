@@ -1,9 +1,8 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42747
-# strategy: sorting 
-# time: O(N log N)
-# space: O(N)
+# Strategy: Sorting 
+# Time: O(n log n)
+# Space: O(n)
 def solution(citations):
-    
     citations.sort(reverse=True)
     
     for i, c in enumerate(citations):

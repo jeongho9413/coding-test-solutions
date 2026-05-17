@@ -3,7 +3,6 @@
 # Time: O(n)
 # Space: O(n)
 def solution(participant, completion):
-    
     hm = dict()
     
     for p in participant:  # O(n)

@@ -1,9 +1,8 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42840
-# strategy: brute-force
-# time complexity: O(N)
-# space complexity: O(1)
+# Strategy: Brute-force
+# Time complexity: O(n)
+# Space complexity: O(1)
 def solution(answers):
-    
     p1 = [1, 2, 3, 4, 5]
     p2 = [2, 1, 2, 3, 2, 4, 2, 5]
     p3 = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]

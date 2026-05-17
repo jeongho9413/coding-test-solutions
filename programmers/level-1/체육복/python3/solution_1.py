@@ -1,9 +1,8 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/42862
-# strategy: greedy with set difference
-# time: O(N log N)
-# space: O(N)
+# https://school.programSmers.co.kr/learn/courses/30/lessons/42862
+# Strategy: Greedy with set difference
+# Time: O(n log n)
+# Space: O(n)
 def solution(n, lost, reserve):
-    
     _reserve = [r for r in reserve if r not in lost]
     _lost = [l for l in lost if l not in reserve]
     """
